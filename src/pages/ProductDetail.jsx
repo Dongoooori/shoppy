@@ -30,7 +30,7 @@ export default function ProductDetail() {
                          <p>{description}</p>
                          <div className='flex items-center'>
                               <label className='text-brand font-bold' htmlFor='select'>
-                                   옵션 :
+                                   옵션 :dd
                               </label>
                               <select
                                    id='select'
