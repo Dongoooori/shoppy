@@ -23,6 +23,8 @@ export default function ProductDetail() {
                <section className='flex flex-col md:flex-row p-4'>
                     <img className='w-full px-4 basis-7/12' src={image} alt={title} />
                     <div className='w-full basis-5/12 flex flex-col p-4'>
+                         {' '}
+                         dddfsdf
                          <h2 className='text-3xl font-bold py-2 border-b border-gray-400'>
                               {title}
                          </h2>
@@ -30,7 +32,7 @@ export default function ProductDetail() {
                          <p>{description}</p>
                          <div className='flex items-center'>
                               <label className='text-brand font-bold' htmlFor='select'>
-                                   옵션 :
+                                   옵션 :dd
                               </label>
                               <select
                                    id='select'
@@ -44,7 +46,7 @@ export default function ProductDetail() {
                                         ))}
                               </select>
                          </div>
-                         <Button text='장바구니에 추가' onClick={handleClick} />
+                         <Button text='장바구니에 추가dddd' onClick={handleClick} />
                     </div>
                </section>
           </>
